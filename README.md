@@ -1,2 +1,2 @@
-# landingPage
-landing page for Ismail Arabic Program
+# Landing Page
+landing page for Ismail's Arabic Program

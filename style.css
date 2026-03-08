@@ -1,7 +1,8 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #f9f9f9;
+    background: #050507;
+    color: white;
 }
 
 /* HEADER */
@@ -11,8 +12,8 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background: white;
-    border-bottom: 1px solid #ddd;
+    background: rgb(9, 0, 54);
+    border-bottom: 1px solid #3a19b1;
 }
 
 .logo {
@@ -23,7 +24,7 @@ header {
 nav a {
     margin-left: 25px;
     text-decoration: none;
-    color: #333;
+    color: #e5e5e5;
     font-weight: 500;
 }
 
@@ -69,7 +70,7 @@ nav a {
 .cta-section {
     text-align: center;
     padding: 80px 20px;
-    background: white;
+    background: rgb(2, 0, 39);
     margin-top: 60px;
 }
 
@@ -121,12 +122,22 @@ nav a {
 .why-text p {
     font-size: 18px;
     line-height: 1.6;
-    color: #444;
+    color: #d0d0d0;
 }
 
 .highlight {
     font-weight: bold;
-    color: #6b2cff;
+    color: #8c6cff;
+}
+
+.hero,
+.why-section {
+    background: linear-gradient(
+        to bottom,
+        #050507 0%,
+        #050507 60%,
+        #08142a 100%
+    );
 }
 
 /* MOBILE */
